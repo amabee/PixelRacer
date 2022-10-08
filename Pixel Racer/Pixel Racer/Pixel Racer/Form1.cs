@@ -18,6 +18,8 @@ namespace Pixel_Racer
         int playerSpeed = 12;
         int score;
         int carImage;
+        public String name { get; set; }
+
 
         Random rand = new Random();
         Random carPosition = new Random();
@@ -29,6 +31,7 @@ namespace Pixel_Racer
         {
             InitializeComponent();
             ResetGame();
+
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
@@ -58,7 +61,7 @@ namespace Pixel_Racer
 
         private void gameTimerEvent(object sender, EventArgs e)
         {
-
+            
             txtScore.Text = "Score: " + score;
             score++;
 
@@ -190,18 +193,19 @@ namespace Pixel_Racer
             player.Controls.Add(explosion);
             explosion.Location = new Point(-8, 5);
             explosion.BackColor = Color.Transparent;
-
             award.Visible = true;
             award.BringToFront();
-            gameoverForm gof = new gameoverForm(score);
+            gameoverForm gof = new gameoverForm();
+            gof.PlayerScore = score;
+            gof.PlayerName = name;
             Hide();
             gof.ShowDialog();
-            Application.Exit();
+           
         }
 
         public void ResetGame()
         {
-
+            labelname.Text = name;
             explosion.Visible = false;
             award.Visible = false;
             goleft = false;
@@ -222,6 +226,12 @@ namespace Pixel_Racer
             AI3.Left = carPosition.Next(500, 788);
 
             gameTimer.Start();
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            labelname.Text = name;
         }
 
         private void GameOverSound()

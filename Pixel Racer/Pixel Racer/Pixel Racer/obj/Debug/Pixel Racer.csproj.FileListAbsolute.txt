@@ -34,3 +34,16 @@ D:\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.csproj.GenerateReso
 D:\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.csproj.CoreCompileInputs.cache
 D:\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.exe
 D:\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.pdb
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\bin\Debug\Pixel Racer.exe.config
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\bin\Debug\Pixel Racer.exe
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\bin\Debug\Pixel Racer.pdb
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.csproj.AssemblyReference.cache
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel_Racer.Form1.resources
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel_Racer.gameoverForm.resources
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel_Racer.Properties.Resources.resources
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel_Racer.StartForm.resources
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.csproj.GenerateResource.cache
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.csproj.CoreCompileInputs.cache
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.exe
+C:\Users\Sho\Source\Repos\amabee\PixelRacer\Pixel Racer\Pixel Racer\Pixel Racer\obj\Debug\Pixel Racer.pdb

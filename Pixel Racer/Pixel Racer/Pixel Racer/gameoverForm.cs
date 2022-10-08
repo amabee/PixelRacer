@@ -13,19 +13,20 @@ namespace Pixel_Racer
 {
     public partial class gameoverForm : Form
     {
-        
-        public gameoverForm(int score)
+        public int PlayerScore { get; set; }
+        public String PlayerName { get; set; }
+        public gameoverForm()
         {
             InitializeComponent();
-            lblScore.Text = "Your Score: "+score.ToString();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            //Form1 frm = new Form1();
+            StartForm frm = new StartForm();
             this.Hide();
             frm.ShowDialog();
-            frm.ResetGame();
+            //frm.ResetGame();
             Application.Exit();
         }
 
@@ -52,6 +53,12 @@ namespace Pixel_Racer
         private void label3_MouseLeave(object sender, EventArgs e)
         {
             label3.ForeColor = Color.White;
+        }
+
+        private void gameoverForm_Load(object sender, EventArgs e)
+        {
+            lblScore.Text = "Your Score: " + PlayerScore;
+            lblname.Text = "Player: "+PlayerName;
         }
     }
 }

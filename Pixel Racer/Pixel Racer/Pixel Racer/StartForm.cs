@@ -12,6 +12,7 @@ namespace Pixel_Racer
 {
     public partial class StartForm : Form
     {
+        
         public StartForm()
         {
             InitializeComponent();
@@ -26,8 +27,8 @@ namespace Pixel_Racer
         {
             Form1 frm = new Form1();
             this.Hide();
+            frm.name = textBox1.Text;
             frm.ShowDialog();
-            Application.Exit();
         }
 
         private void label2_MouseHover(object sender, EventArgs e)
@@ -48,6 +49,11 @@ namespace Pixel_Racer
         private void label3_MouseLeave(object sender, EventArgs e)
         {
             label3.ForeColor = Color.White;
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
         }
     }
 }

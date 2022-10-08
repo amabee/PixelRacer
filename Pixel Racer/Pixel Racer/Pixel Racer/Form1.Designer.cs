@@ -40,6 +40,7 @@
             this.roadTrack2 = new System.Windows.Forms.PictureBox();
             this.roadTrack1 = new System.Windows.Forms.PictureBox();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.labelname = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AI3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AI2)).BeginInit();
@@ -54,6 +55,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.labelname);
             this.panel1.Controls.Add(this.AI3);
             this.panel1.Controls.Add(this.txtScore);
             this.panel1.Controls.Add(this.AI2);
@@ -83,7 +85,7 @@
             // 
             this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.txtScore.Location = new System.Drawing.Point(314, 7);
+            this.txtScore.Location = new System.Drawing.Point(317, 7);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(158, 37);
             this.txtScore.TabIndex = 6;
@@ -167,6 +169,18 @@
             this.gameTimer.Interval = 20;
             this.gameTimer.Tick += new System.EventHandler(this.gameTimerEvent);
             // 
+            // labelname
+            // 
+            this.labelname.BackColor = System.Drawing.Color.Transparent;
+            this.labelname.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.labelname.Location = new System.Drawing.Point(3, 7);
+            this.labelname.Name = "labelname";
+            this.labelname.Size = new System.Drawing.Size(208, 37);
+            this.labelname.TabIndex = 8;
+            this.labelname.Text = "Name";
+            this.labelname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -177,6 +191,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pixel Racer";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
             this.panel1.ResumeLayout(false);
@@ -206,6 +221,7 @@
         private System.Windows.Forms.Timer gameTimer;
         private System.Windows.Forms.PictureBox AI3;
         public System.Windows.Forms.Label txtScore;
+        public System.Windows.Forms.Label labelname;
     }
 }
 
